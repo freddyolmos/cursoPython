@@ -8,21 +8,26 @@ def game_one(list_verb):
 
   if pc_election == 1:
     answer = input('How do you say "' + choose_verb['Spanish verb'] + '" in English?: ')
+    correct_answer = choose_verb['Verb']
 
   elif pc_election == 2:
     answer = input('How do you say "' + choose_verb['Verb'] + '" in Spanish?: ')
+    correct_answer = choose_verb['Spanish verb']
 
   elif pc_election == 3:
     answer = input('How do you say "' + choose_verb['Spanish verb'] + '" in English?:\na)' +
                    list_verb[0]['Verb'] + ' b)' + list_verb[1]['Verb'] + '  c)' +
                    list_verb[2]['Verb']+'\n')
+    correct_answer = choose_verb['Verb']
 
   else:
     answer = input('How do you say "' + choose_verb['Verb'] + '" in Spanish?:\na)' +
                    list_verb[0]['Spanish verb'] + ' b)' + list_verb[1]['Spanish verb'] + '  c)' +
                    list_verb[2]['Spanish verb']+'\n')
+    correct_answer = choose_verb['Spanish verb']
 
-  return answer, choose_verb
+  answer = answer.lower()
+  return answer, correct_answer
 
 def game_two(list_verbs):
   pc_election = random.randint(1, 6)
@@ -30,30 +35,37 @@ def game_two(list_verbs):
   choose_verb = list_verbs[verb_number]
 
   if pc_election == 1:
-    answer = input('How do you say "' + choose_verb['Verb'] + '" in past simple?: ')
+    answer = input('How do you say "' + choose_verb['Verb'] + '"('+choose_verb['Spanish verb']+') in past simple?: ')
+    correct_answer = choose_verb['Past simple']
   elif pc_election == 2:
-    answer = input('How do you say "' + choose_verb['Verb'] + '" in past participle?: ')
+    answer = input('How do you say "' + choose_verb['Verb'] + '"('+choose_verb['Spanish verb']+') in past participle?: ')
+    correct_answer = choose_verb['Past participle']
   elif pc_election == 3:
-    answer = input('How do you say "' + choose_verb['Past simple'] + '" in simple form?: ')
+    answer = input('How do you say "' + choose_verb['Past simple'] + '"('+choose_verb['Spanish verb']+') in simple form?: ')
+    correct_answer = choose_verb['Verb']
   elif pc_election == 4:
-    answer = input('How do you say "' + choose_verb['Past simple'] + '" in past participle?: ')
+    answer = input('How do you say "' + choose_verb['Past simple'] + '"('+choose_verb['Spanish verb']+') in past participle?: ')
+    correct_answer = choose_verb['Past participle']
   elif pc_election == 5:
-    answer = input('How do you say "' + choose_verb['Past participle'] + '" in simple form?: ')
+    answer = input('How do you say "' + choose_verb['Past participle'] + '"('+choose_verb['Spanish verb']+') in simple form?: ')
+    correct_answer = choose_verb['Verb']
   else:
-    answer = input('How do you say "' + choose_verb['Past participle'] + '" in past simple?: ')
+    answer = input('How do you say "' + choose_verb['Past participle'] + '"('+choose_verb['Spanish verb']+') in past simple?: ')
+    correct_answer = choose_verb['Past simple']
 
-  return answer, choose_verb
+  answer = answer.lower()
+  return answer, correct_answer
 
 def run_game():
   list_verbs = choose_verbs.choose_verbs()
   randon_num = random.randint(0, 1)
 
   if randon_num == 0:
-    answer, dict_verb = game_one(list_verbs)
+    answer, correct_answer = game_one(list_verbs)
   else:
-    answer, dict_verb = game_two(list_verbs)
+    answer, correct_answer = game_two(list_verbs)
 
-  return answer, dict_verb
+  return answer, correct_answer
 
 if __name__ == '__main__':
   answer, dict_verb = run_game()

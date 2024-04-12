@@ -1,8 +1,6 @@
 import random
 import read_csv
 
-new_list = []
-
 def choose_list_verbs():
     random_num = random.randint(0,1)
     if random_num == 0:
