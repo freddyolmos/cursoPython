@@ -1,15 +1,21 @@
 ﻿Verb,Past simple,Past participle,Spanish verb
 be,was/were,been,ser/estar
+beat,beat,beaten,golpear(beat)
 become,became,become,convertirse
 begin,began,begun,comenzar
+bend,bent,bent,doblar
 blow,blew,blown,soplar
 break,broke,broken,quebrar
 bring,brought,brought,traer
+burst,burst,burst,reventar
 build,built,built,construir
 buy,bought,bought,comprar
+catch,caught,caught,atrapar
 choose,chose,chosen,escoger
 come,came,come,venir
+cost,cost,cost,costar
 cut,cut,cut,cortar
+dig,dug,dug,excavar
 do,did,done,hacer
 draw,drew,drawn,dibujar
 dream,dreamt,dreamt,soniar
@@ -17,16 +23,21 @@ drink,drank,drunk,beber
 drive,drove,driven,manejar
 eat,ate,eaten,comer
 fall,fell,fallen,caer
+feed,fed,fed,alimentar
 feel,felt,felt,sentir
+fight,fought,fought,pelear
 find,found,found,encontrar
 fly,flew,flew,volar
+forbid,forbade,forbidden,prohibir
 forget,forgot,forgotten,olvidar
-get,got,gotten/got,obtener
+forgive,forgave,forgiven,perdonar
+get,got,gotten,obtener
 give,gave,given,dar
 go,went,gone,ir
-grow up,grew up,grown up,crecer
+grow,grew,grown,crecer
 have,had,had,tener
 hear,heard,heard,oir
+hide,hid,hidden,esconder
 hit,hit,hit,golpear
 hold,held,held,sostener
 hurt,hurt,hurt,lastimar
@@ -35,13 +46,19 @@ know,knew,known,saber/conocer
 leave,left,left,salir
 lend,lent,lent,prestar
 let,let,let,permitir
+lie,lay,lain,acostarse
 lose,lost,lost,perder
 make,made,made,hacer
+mean,meant,meant,significar
 meet,met,met,conocer
+overtake,overtook,overtaken,rebasar
 pay,paid,paid,pagar
 put,put,put,poner
 read,read,read,leer
+reply,replied,replied,responder
 ride,rode,ridden,montar
+ring,rang,rung,sonar
+rise,rose,risen,ascender
 run,ran,run,correr
 say,said,said,decir
 see,saw,seen,ver
@@ -51,20 +68,30 @@ set,set,set,colocar
 shake,shook,shaken,agitar
 shine,shone,shone,brillar
 shoot,shot,shot,disparar
+show,showed,shown,mostrar
+shrink,shrank,shrunk,escoger
 sing,sang,sung,cantar
 sink,sank,sunk,hundirse
 sit,sat,sat,sentarse
 sleep,slept,slept,dormir
 speak,spoke,spoken,hablar
+split,split,split,dividir/partir
 stand,stood,stood,ponerse de pie
 steal,stole,stolen,robar
+stick,stuck,stuck,pegar algo
+sting,stung,stung,picar(instecto)
+stink,stank,stunk,apestar
+strike,struk,struk,golpear
+swear,swore,sworn,decir groserias
 sweep,swept,swept,barrer
 swim,swam,swum,nadar
 take,took,taken,llevar/tomar
 teach,taught,taught,enseniar
+tear,tore,torn,romper/rasgar
 tell,told,told,decir
 think,thought,thought,pensar
 throw,threw,thrown,arrojar
+understand,understood,understood,entender
 wake up,woke up,woken up,despertar
 wear,wore,worn,usar ropa
 win,won,won,ganar
